@@ -53,11 +53,11 @@ Built a virtualized Windows environment using VirtualBox consisting of:
 
 ### 2. Password Reset & Account Management
 
+<img width="682" height="465" alt="Password reset demonstration" src="https://github.com/user-attachments/assets/31199274-bda8-4b25-8353-71b176b47469" />
+
 **Incident:** A user reports being unable to access their Windows 10 workstation because they forgot their domain password.
 
 **Troubleshooting workflow:**
-
-<img width="682" height="465" alt="image" src="https://github.com/user-attachments/assets/31199274-bda8-4b25-8353-71b176b47469" />
 
 1. Reviewed the password reset request in ServiceNow.
 2. Located the user's account in Active Directory Users and Computers.
@@ -68,26 +68,34 @@ Built a virtualized Windows environment using VirtualBox consisting of:
 
 ### 3. Group Policy Administration
 
-<img width="694" height="458" alt="image" src="https://github.com/user-attachments/assets/5126f8b7-2c53-47d2-9b13-04b4d7ff38f4" />
+<img width="694" height="458" alt="Group Policy configuration" src="https://github.com/user-attachments/assets/5126f8b7-2c53-47d2-9b13-04b4d7ff38f4" />
 
 - Created and configured a Group Policy Object (GPO) in Group Policy Management on Windows Server 2019.
-- Enabled the policy “Prohibit access to Control Panel and PC settings.”
+- Enabled the policy "Prohibit access to Control Panel and PC settings."
 - Linked the GPO to the appropriate domain or organizational unit.
-- Ran gpupdate /force on the Windows 10 domain-joined client to apply the policy.
+- Ran `gpupdate /force` on the Windows 10 domain-joined client to apply the policy.
 - Verified that the domain user could no longer access Control Panel or PC settings.
 
-### 4. Windows Remote Support
+### 4. IT Support Simulation Lab – Windows 10
 
-- Configured Remote Desktop for remote troubleshooting.
-- Managed local Windows user accounts.
-- Installed third-party software and investigated application errors.
-- Used administrative tools and diagnostic utilities to isolate and resolve common user-reported problems.
+[Video Demonstration](https://www.youtube.com/watch?v=gV19DAwP33U&t=250s)
+
+**June 2025**
+
+Set up a Windows 10 virtual machine to simulate a help desk environment:
+
+- Created and managed local Windows user accounts.
+- Installed third-party software.
+- Resolved application errors and common software issues.
+- Configured Remote Desktop for remote support.
+- Tested administrative tools and ran diagnostics to isolate and resolve common user-reported problems.
 
 ## ServiceNow Incident Management
 
 Used ServiceNow ITSM to simulate an enterprise help desk ticketing workflow, documenting Active Directory troubleshooting scenarios through incident records.
 
 **Practiced:**
+
 - Incident creation and categorization.
 - Caller and assignment management.
 - Impact, urgency, and priority classification.
@@ -99,12 +107,12 @@ Used ServiceNow ITSM to simulate an enterprise help desk ticketing workflow, doc
 
 <img width="1533" alt="ServiceNow incident management workflow" src="https://github.com/user-attachments/assets/d83c6c73-cc9e-4e61-8544-29240dc46ae6" />
 
-<img width="1532" height="486" alt="image" src="https://github.com/user-attachments/assets/3a562e29-d009-462b-a3f2-160dccbf770c" />
+<img width="1532" height="486" alt="ServiceNow incident details" src="https://github.com/user-attachments/assets/3a562e29-d009-462b-a3f2-160dccbf770c" />
 
 [Video Demonstration](https://www.youtube.com/watch?v=gTaHLg82k9Y)
 
 ## Key Takeaways
 
-This project provided practical experience combining Windows domain administration with IT service management workflows. It demonstrates how a Tier 1 support technician can investigate user-reported issues, troubleshoot underlying technical problems, document findings, and track incidents through resolution.
+This project provided practical experience combining Windows domain administration, desktop troubleshooting, and IT service management workflows. It demonstrates how a Tier 1 support technician can investigate user-reported issues, troubleshoot underlying technical problems, document findings, and track incidents through resolution.
 
 **Note:** This is a personal learning and simulation environment. ServiceNow incidents and troubleshooting scenarios are simulated and are not associated with a production IT environment.
