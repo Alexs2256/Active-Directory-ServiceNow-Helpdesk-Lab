@@ -57,6 +57,8 @@ Built a virtualized Windows environment using VirtualBox consisting of:
 
 **Troubleshooting workflow:**
 
+<img width="682" height="465" alt="image" src="https://github.com/user-attachments/assets/31199274-bda8-4b25-8353-71b176b47469" />
+
 1. Reviewed the password reset request in ServiceNow.
 2. Located the user's account in Active Directory Users and Computers.
 3. Verified the account status and identified the need for a password reset.
@@ -66,9 +68,13 @@ Built a virtualized Windows environment using VirtualBox consisting of:
 
 ### 3. Group Policy Administration
 
-- Created and configured Group Policy Objects to restrict Control Panel access.
-- Applied policies to domain users and computers.
-- Verified policy updates using `gpupdate /force`.
+<img width="694" height="458" alt="image" src="https://github.com/user-attachments/assets/5126f8b7-2c53-47d2-9b13-04b4d7ff38f4" />
+
+- Created and configured a Group Policy Object (GPO) in Group Policy Management on Windows Server 2019.
+- Enabled the policy “Prohibit access to Control Panel and PC settings.”
+- Linked the GPO to the appropriate domain or organizational unit.
+- Ran gpupdate /force on the Windows 10 domain-joined client to apply the policy.
+- Verified that the domain user could no longer access Control Panel or PC settings.
 
 ### 4. Windows Remote Support
 
@@ -92,6 +98,8 @@ Used ServiceNow ITSM to simulate an enterprise help desk ticketing workflow, doc
 **ServiceNow Incident Demonstration:**
 
 <img width="1533" alt="ServiceNow incident management workflow" src="https://github.com/user-attachments/assets/d83c6c73-cc9e-4e61-8544-29240dc46ae6" />
+
+<img width="1532" height="486" alt="image" src="https://github.com/user-attachments/assets/3a562e29-d009-462b-a3f2-160dccbf770c" />
 
 [Video Demonstration](https://www.youtube.com/watch?v=gTaHLg82k9Y)
 
