@@ -32,40 +32,37 @@ Built a virtualized Windows environment using VirtualBox consisting of:
 - Document incidents, investigation findings, and resolutions in ServiceNow.
 - Practice incident lifecycle management, including ticket creation, status updates, work notes, and resolution documentation.
 
-## Help Desk Scenarios
+## Troubleshooting Scenarios
 
 ### 1. Active Directory Account Lockout
 
-<img width="674" height="465" alt="image" src="https://github.com/user-attachments/assets/aae88e87-0786-4d43-bbda-c2d6bfbe5e15" />
+<img width="674" alt="Active Directory account lockout simulation" src="https://github.com/user-attachments/assets/aae88e87-0786-4d43-bbda-c2d6bfbe5e15" />
 
-https://www.youtube.com/watch?v=n91-uzhOnew
+[Video Demonstration](https://www.youtube.com/watch?v=n91-uzhOnew)
 
 **Incident:** A user reports being unable to log into their Windows 10 workstation after multiple unsuccessful authentication attempts.
 
 **Troubleshooting workflow:**
 
-1. Review the incident reported by the user in ServiceNow.
-2. Investigate the user's account in Active Directory Users and Computers.
-3. Identify the account lockout.
-4. Unlock the account through ADUC.
-5. Verify successful authentication on the Windows 10 client.
-6. Update the ServiceNow incident with investigation findings and resolution notes.
-
-**ServiceNow workflow:**
-
- <img width="1533" height="680" alt="image" src="https://github.com/user-attachments/assets/d83c6c73-cc9e-4e61-8544-29240dc46ae6" />
- 
-  https://www.youtube.com/watch?v=gTaHLg82k9Y
-  
-- Create and categorize the incident.
-- Assign an appropriate priority.
-- Update the incident status as troubleshooting progresses.
-- Document investigation steps using Work notes.
-- Record the resolution and close the incident.
+1. Reviewed the user's reported issue in ServiceNow.
+2. Investigated the user's account in Active Directory Users and Computers.
+3. Identified the account lockout.
+4. Unlocked the account through ADUC.
+5. Verified successful authentication on the Windows 10 client.
+6. Updated the ServiceNow incident with investigation findings and resolution notes.
 
 ### 2. Password Reset & Account Management
 
-Practice common account administration tasks, including password resets, user account changes, and login troubleshooting through Active Directory Users and Computers.
+**Incident:** A user reports being unable to access their Windows 10 workstation because they forgot their domain password.
+
+**Troubleshooting workflow:**
+
+1. Reviewed the password reset request in ServiceNow.
+2. Located the user's account in Active Directory Users and Computers.
+3. Verified the account status and identified the need for a password reset.
+4. Reset the domain password through ADUC.
+5. Verified successful authentication on the Windows 10 domain-joined client.
+6. Documented the troubleshooting steps and resolution in ServiceNow.
 
 ### 3. Group Policy Administration
 
@@ -78,12 +75,13 @@ Practice common account administration tasks, including password resets, user ac
 - Configured Remote Desktop for remote troubleshooting.
 - Managed local Windows user accounts.
 - Installed third-party software and investigated application errors.
+- Used administrative tools and diagnostic utilities to isolate and resolve common user-reported problems.
 
 ## ServiceNow Incident Management
 
-Used ServiceNow ITSM to simulate an enterprise help desk ticketing workflow.
+Used ServiceNow ITSM to simulate an enterprise help desk ticketing workflow, documenting Active Directory troubleshooting scenarios through incident records.
 
-Practiced:
+**Practiced:**
 - Incident creation and categorization.
 - Caller and assignment management.
 - Impact, urgency, and priority classification.
@@ -91,16 +89,11 @@ Practiced:
 - Internal work notes and troubleshooting documentation.
 - Resolution notes and incident closure.
 
-## Screenshots & Demonstrations
+**ServiceNow Incident Demonstration:**
 
-Screenshots documenting the lab environment and troubleshooting workflows will be added here.
+<img width="1533" alt="ServiceNow incident management workflow" src="https://github.com/user-attachments/assets/d83c6c73-cc9e-4e61-8544-29240dc46ae6" />
 
-Planned evidence:
-- [ ] VirtualBox Windows Server and Windows 10 environment.
-- [ ] Active Directory domain and user management.
-- [ ] Account lockout and subsequent unlock.
-- [ ] ServiceNow incident record.
-- [ ] ServiceNow work notes and resolution documentation.
+[Video Demonstration](https://www.youtube.com/watch?v=gTaHLg82k9Y)
 
 ## Key Takeaways
 
