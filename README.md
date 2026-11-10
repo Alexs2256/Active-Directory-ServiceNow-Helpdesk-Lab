@@ -36,6 +36,10 @@ Built a virtualized Windows environment using VirtualBox consisting of:
 
 ### 1. Active Directory Account Lockout
 
+<img width="674" height="465" alt="image" src="https://github.com/user-attachments/assets/aae88e87-0786-4d43-bbda-c2d6bfbe5e15" />
+
+https://www.youtube.com/watch?v=n91-uzhOnew
+
 **Incident:** A user reports being unable to log into their Windows 10 workstation after multiple unsuccessful authentication attempts.
 
 **Troubleshooting workflow:**
@@ -48,6 +52,11 @@ Built a virtualized Windows environment using VirtualBox consisting of:
 6. Update the ServiceNow incident with investigation findings and resolution notes.
 
 **ServiceNow workflow:**
+
+ <img width="1533" height="680" alt="image" src="https://github.com/user-attachments/assets/d83c6c73-cc9e-4e61-8544-29240dc46ae6" />
+ 
+  https://www.youtube.com/watch?v=gTaHLg82k9Y
+  
 - Create and categorize the incident.
 - Assign an appropriate priority.
 - Update the incident status as troubleshooting progresses.
